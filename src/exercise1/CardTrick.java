@@ -39,6 +39,8 @@ public class CardTrick {
         for (int i=0; i<hand.length; i++){
             if (suit == hand[i].setSuit && cardNum == hand[i].setValue){
                 System.out.println("card found");
+                System.out.println();
+                printInfo();
             }
             else {
                 System.out.println("card not found");
